@@ -7,9 +7,13 @@ import axios from "axios"
 dotenv.config()
 
 const app = express()
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 
-app.use(cors())
+// ✅ CORS setup for Netlify
+app.use(cors({
+    origin: "https://chef-claude-kitchen.netlify.app" // your deployed frontend URL
+}))
+
 app.use(express.json())
 
 app.post("/api/recipe", async (req, res) => {
