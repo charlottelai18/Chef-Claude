@@ -33,4 +33,7 @@ This project uses a secure Express backend to protect the Claude API key, and di
 <br />
 <img src="screenshots/Preview2.png" alt="App preview 2" width="700" />
 
+## 🌐 Live Demo
+
+👉 [Visit Claude's Kitchen](https://chef-claude-kitchen.netlify.app)
 
