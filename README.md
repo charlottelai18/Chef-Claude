@@ -29,8 +29,8 @@ This project uses a secure Express backend to protect the Claude API key, and di
 
 ## 📸 Preview
 
-<img src="screenshots/preview1.png" alt="App preview 1" width="700" />
+<img src="screenshots/Preview1.png" alt="App preview 1" width="700" />
 <br />
-<img src="screenshots/preview2.png" alt="App preview 2" width="700" />
+<img src="screenshots/Preview2.png" alt="App preview 2" width="700" />
 
 
