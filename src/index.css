@@ -27,7 +27,7 @@ header > h1 {
 }
 
 main {
-  padding: 16px;
+  padding: 30px 30px 10px;
 }
 
 .add-ingredient-form {
@@ -43,8 +43,8 @@ main {
   padding: 9px 13px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
   flex-grow: 1;
-  width: 100%;
-  max-width: 100%;
+  min-width: 150px;
+  max-width: 400px;
 }
 
 .add-ingredient-form > button {
@@ -201,5 +201,38 @@ ul.ingredients-list > li {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 600px) {
+  .add-ingredient-form {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+  }
+
+  .add-ingredient-form > input,
+  .add-ingredient-form > button {
+    width: 100%;
+  }
+
+  .get-recipe-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .get-recipe-container button {
+    width: 100%;
+  }
+
+  .reset-button {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .suggested-recipe-container {
+    font-size: 1rem;
+    padding: 1rem;
+  }
 }
 
