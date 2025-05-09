@@ -27,7 +27,7 @@ header > h1 {
 }
 
 main {
-  padding: 30px 30px 10px;
+  padding: 16px;
 }
 
 .add-ingredient-form {
@@ -43,8 +43,8 @@ main {
   padding: 9px 13px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
   flex-grow: 1;
-  min-width: 150px;
-  max-width: 400px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .add-ingredient-form > button {
