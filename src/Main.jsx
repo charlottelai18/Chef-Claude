@@ -8,7 +8,7 @@ export default function Main() {
     const [recipe, setRecipe] = React.useState("")
 
     function fetchRecipe() {
-        fetch("http://localhost:3001/api/recipe", {
+        fetch("https://claude-kitchen-backend.onrender.com/api/recipe", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ ingredients })
