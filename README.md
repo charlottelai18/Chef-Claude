@@ -1,6 +1,6 @@
-# Claude’s Kitchen 🧑‍🍳✨
+# Chef Claude 🧑‍🍳✨
 
-Claude’s Kitchen is a smart recipe generator built with React and powered by Anthropic's Claude AI API. Simply enter the ingredients you have on hand, and the app will suggest a delicious recipe you can make — complete with instructions, ingredients, and a clean, readable layout.
+Chef Claude is a smart recipe generator built with React and powered by Anthropic's Claude AI API. Simply enter the ingredients you have on hand, and the app will suggest a delicious recipe you can make — complete with instructions, ingredients, and a clean, readable layout.
 
 This project uses a secure Express backend to protect the Claude API key, and displays AI-generated Markdown recipes using `react-markdown`. It includes a dynamic ingredient form, interactive UI elements, and a polished, responsive design.
 
