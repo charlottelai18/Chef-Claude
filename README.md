@@ -35,5 +35,5 @@ This project uses a secure Express backend to protect the Claude API key, and di
 
 ## 🌐 Live Demo
 
-👉 [Visit Claude's Kitchen](https://chef-claude-kitchen.netlify.app)
+👉 [Visit Chef Claude](https://chef-claude-kitchen.netlify.app)
 
